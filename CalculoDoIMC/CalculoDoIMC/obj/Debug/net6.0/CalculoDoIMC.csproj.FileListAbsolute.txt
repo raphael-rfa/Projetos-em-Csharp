@@ -1,0 +1,15 @@
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\CalculoDoIMC.csproj.AssemblyReference.cache
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\CalculoDoIMC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\CalculoDoIMC.AssemblyInfoInputs.cache
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\CalculoDoIMC.AssemblyInfo.cs
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\CalculoDoIMC.csproj.CoreCompileInputs.cache
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\bin\Debug\net6.0\CalculoDoIMC.exe
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\bin\Debug\net6.0\CalculoDoIMC.deps.json
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\bin\Debug\net6.0\CalculoDoIMC.runtimeconfig.json
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\bin\Debug\net6.0\CalculoDoIMC.dll
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\bin\Debug\net6.0\CalculoDoIMC.pdb
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\CalculoDoIMC.dll
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\refint\CalculoDoIMC.dll
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\CalculoDoIMC.pdb
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\CalculoDoIMC.genruntimeconfig.cache
+C:\Users\55389\Desktop\portfolio\CalculoDoIMC\CalculoDoIMC\obj\Debug\net6.0\ref\CalculoDoIMC.dll
