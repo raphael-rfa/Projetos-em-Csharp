@@ -22,7 +22,7 @@ namespace CalculoDoIMC
                 }
                 else if (imc >= 20 && imc <= 25)
                 {
-                    Console.WriteLine($" O seu imc é de {(int)imc} que é considerado normal.");
+                    Console.WriteLine($"O seu imc é de {(int)imc} que é considerado normal.");
                     Console.ReadLine();
                 }
                 else if (imc > 25 && imc <= 30)

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\55389\\Desktop\\portfolio\\CalculoDoIMC\\CalculoDoIMC\\CalculoDoIMC.csproj",
+      "projectUniqueName": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\codigo\\CalculoDoIMC\\CalculoDoIMC\\CalculoDoIMC.csproj",
       "projectName": "CalculoDoIMC",
-      "projectPath": "C:\\Users\\55389\\Desktop\\portfolio\\CalculoDoIMC\\CalculoDoIMC\\CalculoDoIMC.csproj",
+      "projectPath": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\codigo\\CalculoDoIMC\\CalculoDoIMC\\CalculoDoIMC.csproj",
       "packagesPath": "C:\\Users\\55389\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\55389\\Desktop\\portfolio\\CalculoDoIMC\\CalculoDoIMC\\obj\\",
+      "outputPath": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\codigo\\CalculoDoIMC\\CalculoDoIMC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\55389\\AppData\\Roaming\\NuGet\\NuGet.Config",
