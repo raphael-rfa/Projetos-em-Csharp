@@ -15,3 +15,13 @@ em que faixa de risco ele se encontra, se o indice esta abaixo de 20 ele
 esta abaixo do peso, se estiver entre 20 e 25 esta com o peso normal, entre
 de 26 a 30 com escesso de peso, se o indice estiver de 30 a 35 indica que o
 usuario esta com obesidade e acima de 35 com obesidade mórbida.
+
+
+# 📦 [Controle de Estoque](https://github.com/raphael-rfa/csharp/blob/main/ControleDeEstoque/ControleDeEstoque/Program.cs)
+
+### Projeto
+
+O controle de estoque recebe a quantidade de produtos fabricados e vendidos   
+e assim descobre quantos produtos deviam esta em estoque, também mostra  
+o produto com maior estoque e o de menor estoque, e todos os produtos  
+ordenas pela quantidade em estoque.
