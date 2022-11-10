@@ -11,13 +11,7 @@ namespace ControleDeEstoque
             public int qntVendida;
             public int qntEstoque;
         }
-        struct Produtostroca
-        {
-            public string nome;
-            public int qntProduzida;
-            public int qntVendida;
-            public int qntEstoque;
-        }
+
         static void Main(string[] args)
         {
             int opcao;            
@@ -27,10 +21,7 @@ namespace ControleDeEstoque
 
 
             Produtos[] produtos = new Produtos[qntProdutos];
-            Produtostroca produtostroca = new Produtostroca();
-            
-            int maisEmEstoque = 0;
-            int menosEmEstoque = 0;
+            Produtos produtostroca = new Produtos();
 
             for (int i = 0; i < produtos.Length; i++)
             {
@@ -53,17 +44,12 @@ namespace ControleDeEstoque
 
                     if (produtos[i].qntEstoque > produtos[j].qntEstoque)
                     {
-                        produtostroca.nome = produtos[i].nome;
-                        produtostroca.qntProduzida = produtos[i].qntProduzida;
-                        produtostroca.qntVendida = produtos[i].qntVendida;
-                        produtostroca.qntEstoque = produtos[i].qntEstoque;
+                        produtostroca = produtos[i];;
 
                         produtos[i] = produtos[j];
 
-                        produtos[j].nome = produtostroca.nome;
-                        produtos[j].qntProduzida = produtostroca.qntProduzida;
-                        produtos[j].qntVendida = produtostroca.qntVendida;
-                        produtos[j].qntEstoque = produtostroca.qntEstoque;
+                        produtos[j] = produtostroca;
+
                     }
 
                 }
@@ -108,9 +94,16 @@ namespace ControleDeEstoque
                                 $"Quantidade Produzida : {produtos[i].qntProduzida}\n " +
                                 $"Quantidade Vendida : {produtos[i].qntVendida}\n " +
                                 $"Quantidade em Estoque : {produtos[i].qntEstoque} \n\n");
-                            Console.ReadLine();
-                            Console.Clear();
+
                         }
+                        break;
+                    case 5:
+                        Console.WriteLine("Raphael a disposição só me contratar");
+                        Console.ReadLine();
+                        Console.Clear();
+                        break;
+                    default: 
+                        Console.WriteLine("Opção invaliada");
                         break;
 
                 }
