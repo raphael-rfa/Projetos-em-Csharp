@@ -4,7 +4,7 @@ namespace ControleDeEstoque
 {
     class Program
     {
-        struct Produtos
+        struct Produtos //Dados dos produtos
         {
             public string nome;
             public int qntProduzida;
@@ -13,17 +13,19 @@ namespace ControleDeEstoque
         }
 
         static void Main(string[] args)
-        {
-            int opcao;            
+        {                        
+            /* fiz esse projeto com array por isso preciso perguntar quantos 
+             * produtos tem já que o array não são autoincremete como list 
+             * mas amanha quando eu fizer um controle de livraria farei com list*/
 
             Console.WriteLine("Quantos produtos a empresa tem ?");
             int qntProdutos = Convert.ToInt32(Console.ReadLine());
 
+            
+            Produtos[] produtos = new Produtos[qntProdutos];//Array de struct
+            Produtos produtostroca = new Produtos();//Array de troca para fazer a ordenação.
 
-            Produtos[] produtos = new Produtos[qntProdutos];
-            Produtos produtostroca = new Produtos();
-
-            for (int i = 0; i < produtos.Length; i++)
+            for (int i = 0; i < produtos.Length; i++)//entrada dos dados
             {
                 Console.WriteLine($"Coloque o nome do {i+1}º produto");
                 produtos[i].nome = Console.ReadLine();
@@ -42,24 +44,21 @@ namespace ControleDeEstoque
                 for(int j = 1; j < produtos.Length; j++)
                 {
 
-                    if (produtos[i].qntEstoque > produtos[j].qntEstoque)
+                    if (produtos[i].qntEstoque > produtos[j].qntEstoque)//Ordenação em ordem crescente
                     {
                         produtostroca = produtos[i];;
-
                         produtos[i] = produtos[j];
-
                         produtos[j] = produtostroca;
-
                     }
-
                 }
             }
 
+            int opcao;
             Console.WriteLine(" 1 - Imprimir o produto com maior quantidade no estoque \n " +
                 "2 - Imprimir o produto com menor quantidade no estoque \n " +
                 "3 - imprimir o produto com maior e menor quantidade \n " +
                 "4 - Imprimir todas os produtos" +
-                "5 - Sair");
+                "5 - Sair");//Menu
 
             do
             {
@@ -114,7 +113,7 @@ namespace ControleDeEstoque
                     "4 - Imprimir todas os produtos \n " +
                     "5 - Sair");
 
-            } while (opcao != 5);
+            } while (opcao != 5);//iteração do menu
             Console.ReadLine(); 
 
         }
