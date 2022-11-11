@@ -19,9 +19,28 @@ usuario esta com obesidade e acima de 35 com obesidade mórbida.
 
 # 📦 [Controle de Estoque](https://github.com/raphael-rfa/csharp/blob/main/ControleDeEstoque/ControleDeEstoque/Program.cs)
 
+Controle de Estoque de uma fabrica.
+
 ### Projeto
 
 O controle de estoque recebe a quantidade de produtos fabricados e vendidos   
 e assim descobre quantos produtos deviam esta em estoque, também mostra  
 o produto com maior estoque e o de menor estoque, e todos os produtos  
 ordenas pela quantidade em estoque.
+
+# 📚 [Biblioteca](https://github.com/raphael-rfa/Projetos-em-Csharp/blob/main/Biblioteca/Biblioteca/Program.cs)
+
+### Projeto
+
+O progama permite fazer o cadastro ilimitado de livros com os seguintes   
+dados CODIGO, TITULO, AUTOR, AREA, ANO e EDITORA. O menu da a opção de : 
+
+- 1 Cadastrar livros.
+- 2 Imprimir todos os livros.
+- 3 Pesquisar livros por nome.
+- 4 Ordenar livros por Ano.
+- 5 Sair.
+
+Utilizando uma List<T> fiz uma lista generica da classe Livro assim  
+não precisa setar o tamanho da lista e ela fica do tamanho que precisar.  
+Para fazer a busca do livro pelo nome usei LINQ query.
