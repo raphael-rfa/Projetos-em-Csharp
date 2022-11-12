@@ -1,0 +1,15 @@
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\GestãoDeSalaDeAula.csproj.AssemblyReference.cache
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\GestãoDeSalaDeAula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\GestãoDeSalaDeAula.AssemblyInfoInputs.cache
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\GestãoDeSalaDeAula.AssemblyInfo.cs
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\GestãoDeSalaDeAula.csproj.CoreCompileInputs.cache
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\bin\Debug\net7.0\GestãoDeSalaDeAula.exe
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\bin\Debug\net7.0\GestãoDeSalaDeAula.deps.json
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\bin\Debug\net7.0\GestãoDeSalaDeAula.runtimeconfig.json
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\bin\Debug\net7.0\GestãoDeSalaDeAula.dll
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\bin\Debug\net7.0\GestãoDeSalaDeAula.pdb
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\GestãoDeSalaDeAula.dll
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\refint\GestãoDeSalaDeAula.dll
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\GestãoDeSalaDeAula.pdb
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\GestãoDeSalaDeAula.genruntimeconfig.cache
+C:\Users\55389\OneDrive\Área de Trabalho\csharp\codigo\GestaoDeSalaDeAula\GestãoDeSalaDeAula\obj\Debug\net7.0\ref\GestãoDeSalaDeAula.dll
