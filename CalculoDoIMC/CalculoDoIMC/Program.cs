@@ -6,13 +6,13 @@ namespace CalculoDoIMC
         static void Main(string[] args)
         {
             string resposta;
-            Console.WriteLine("Esse programa verifica o seu IMC(Indice de Massa Corporal) mas para isso preciso do seu peso e sua altura primeiro coloque sua altura em metros");
+            Console.WriteLine(" Esse programa verifica o seu IMC(Indice de Massa Corporal)\n mas para isso, preciso da sua altura e seu peso,\n primeiro coloque sua altura em metros");
 
             do
             {
-                double altura = double.Parse(Console.ReadLine());
-                Console.WriteLine("Agora coloque o seu peso");
-                double peso = double.Parse(Console.ReadLine());
+                double altura = double.Parse(Console.ReadLine()!);
+                Console.WriteLine("Agora coloque o seu peso em kilos");
+                double peso = double.Parse(Console.ReadLine()!);
                 double imc = peso / Math.Pow(altura, 2);
 
                 if (imc < 20)
@@ -40,8 +40,8 @@ namespace CalculoDoIMC
                     Console.WriteLine($"O seu IMC é de {(int)imc} indicando obesidade mórbida.");
                     Console.ReadLine();
                 }
-                Console.WriteLine("Deseja realizar nova consulta sim/nao");
-                resposta = Console.ReadLine();
+                Console.WriteLine("Deseja realizar nova consulta ?\n sim/nao");
+                resposta = Console.ReadLine()!;
 
                 if (resposta == "sim")
                 {
