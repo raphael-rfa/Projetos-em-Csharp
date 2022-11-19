@@ -1,6 +1,9 @@
 # 🗄 Repositorio de Projetos em C#
 
-Destinado a pequenos projetos para testar a logica de programação com algoritmos nessa linguagem incrivel.
+Destinado a pequenos projetos para testar a logica de programação com algoritmos  
+nessa linguagem incrivel. Você pode testar todos os codigos na sua propia maquina  
+basta clicar no titulo do projeto que preferir copiar o codigo e colar em um projeto  
+do tipo Aplicativo do Console no visual studio.
 
 # 🧮 [Calculadora de IMC](https://github.com/raphael-rfa/csharp/blob/main/CalculoDoIMC/CalculoDoIMC/Program.cs)
 
@@ -10,12 +13,12 @@ obesidade mórbida.
 
 ### Projeto
 
-Esse projeto recebe a altura e peso do usuario para fazer o calculo. 
-Depois do calculo feito e o indice ter sido obtido é hora de descobrir
-em que faixa de risco ele se encontra, se o indice esta abaixo de 20 ele
-esta abaixo do peso, se estiver entre 20 e 25 esta com o peso normal, entre
-de 26 a 30 com escesso de peso, se o indice estiver de 30 a 35 indica que o
-usuario esta com obesidade e acima de 35 com obesidade mórbida.
+Esse projeto recebe a altura e peso do usuario para fazer o calculo.  
+Depois do calculo feito e o indice ter sido obtido é hora de descobrir  
+em que faixa de risco ele se encontra, se o indice esta abaixo de 20 ele  
+esta abaixo do peso, se estiver entre 20 e 25 esta com o peso normal, entre  
+de 26 a 30 com escesso de peso, se o indice estiver de 30 a 35 indica que o  
+usuario esta com obesidade e acima de 35 com obesidade mórbida.  
 
 O projeto é simples feito apenas com o operador condicional if else e else if  
 com do while para fazer o loop até o usurio colocar dizer não.
@@ -31,14 +34,14 @@ e assim descobre quantos produtos deviam esta em estoque, também mostra
 o produto com maior estoque e o de menor estoque, e todos os produtos  
 ordenas pela quantidade em estoque.
 
-- 1 Imprimir o produto com maior quantidade no estoque
-- 2 Imprimir o produto com menor quantidade no estoque
-- 3 imprimir o produto com maior e menor quantidade
-- 4 Imprimir todas os produtos
- - 5 - Sair
+- 1 Cadastrar
+- 2 Imprimir o produto com maior e menor quantidade no estoque
+- 3 imprimir os produtos em ordem decrecente
+- 4 Imprimir os produtos em ordem crescente
+- 5 Sair
  
-Utilizando um Array de struct para armazenar os produtos e switch case para  
-o menu.
+Utilizando uma coleção generica de uma classe personalizada para armazenar os  
+produtos e switch case para o menu.
 
 
 # 📚 [Biblioteca](https://github.com/raphael-rfa/Projetos-em-Csharp/blob/main/Biblioteca/Biblioteca/Program.cs)
@@ -54,21 +57,20 @@ dados CODIGO, TITULO, AUTOR, AREA, ANO e EDITORA. O menu da a opção de :
 - 4 Ordenar livros por Ano.
 - 5 Sair.
 
-Utilizando uma List<T> fiz uma lista generica da classe Livro assim  
-não precisa setar o tamanho da lista e ela fica do tamanho que precisar.  
-Para fazer a busca do livro pelo nome usei LINQ query.
+Utilizando uma lista generica para armazenar os livros e para fazer a busca do livro  
+pelo Titulo usei LINQ query.
 
 # 📈 [Gestão de Sala de Aula](https://github.com/raphael-rfa/Projetos-em-Csharp/blob/main/GestaoDeSalaDeAula/Gest%C3%A3oDeSalaDeAula/Program.cs)
 
 ### Projeto
 
 Gestão de Sala de aula permite o cadastro de alunos e de suas notas, faz  
-o calculo da media com as notas fornecidas e rankei os alunos da maior nota  
+o calculo da media com as notas fornecidas e rankeia os alunos da maior nota  
 para a menor.
 
 - 1 Cadastrar alunos.
 - 2 Rankear turma.
 - 3 Sair.
 
-O projeto utiliza List<T> da classe Aluno para armazenar os dados como  
-nome, notas e media, switch case para o menu.
+O projeto utiliza lista generica para armazenar os dados como nome, notas e media,
+e usa switch case para o menu.
